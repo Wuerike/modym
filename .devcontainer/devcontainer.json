@@ -1,0 +1,26 @@
+{
+	"name": "modym",
+	
+	"image": "wuerike/modym:v1",
+
+	"runArgs": [
+		"-v", "/tmp/.X11-unix:/tmp/.X11-unix:rw"
+	],
+
+	"containerEnv": {
+		"DISPLAY": "${localEnv:DISPLAY}"
+	},
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter"
+			]
+		}
+	},
+
+	"forwardPorts": [8888],
+
+	"postCreateCommand": ". /root/miniconda3/bin/activate base"
+}

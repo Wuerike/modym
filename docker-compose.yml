@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  modym:
+    image: wuerike/modym:v1
+    stdin_open: true
+    tty: true
+    environment:
+      - DISPLAY=$DISPLAY
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - .:/workspaces/modym:rw
+    ports:
+      - 8888:8888

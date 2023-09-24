@@ -1,0 +1,18 @@
+{
+    "fmu_mode": "CS",
+    "fmi_version": 2,
+    "model_path": "cartpole/models/ModelicaGym_CartPole_CS.fmu",
+    "start_time": 0,
+    "time_step": 0.01,
+    "positive_reward": 1,
+    "negative_reward": -100,
+    "force": 12,
+    "model_input_names": ["f"],
+    "model_output_names": ["x", "x_dot", "theta", "theta_dot"],
+    "model_parameters": {
+        "m_cart": 10, 
+        "m_pole": 1,
+        "theta_0": 1.48353,
+        "theta_dot_0": 0
+    }
+}
