@@ -60,7 +60,7 @@ It uses the FMU files available on [modelicagym](https://github.com/ucuapps/mode
 
 The `config.json` has `CartPoleEnv`'s and `ModymEnv`'s required configurations.
 
-Soon the `CartPoleLearner`'s parameters will be also added to it, then all the simulation setup will be centralized.
+Son the `CartPoleLearner`'s parameters will be also added to it, then all the simulation setup will be centralized.
 
 ### How To Run
 
