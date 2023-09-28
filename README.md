@@ -46,7 +46,7 @@ Then you should attach the container terminal to yours and run all the commands 
 
 As some dependencies may require window creation, as matplotlib, X11 folder its being shared as volume, then windows can be opened from inside the container.
 
-AS it was developed on Ubuntu, if you require display usage and you are in other OS, changes may be necessary.
+As it was developed on Ubuntu, if you require display usage and you are in other OS, changes may be necessary.
 
 You may also need run `xhost +` in your machine to your display be available to the container.
 
